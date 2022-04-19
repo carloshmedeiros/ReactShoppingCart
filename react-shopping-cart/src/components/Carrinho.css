@@ -1,0 +1,41 @@
+.cart__wrapper {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    z-index: 10;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.377);
+
+  }
+  .Cart__frete {
+    border-radius: 12px;
+    padding: 5px;
+    z-index: 10;
+    background-color: #0c8040;
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+
+  }
+  .cart__innerWrapper {
+    height: max-content;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+  
+  .Cart__cartTotal {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  
+  .fa-times-circle {
+    color: gray;
+    transition: transform 0.2s linear;
+  }
+  
+  .fa-times-circle:hover {
+    transform: rotate(90deg);
+  }

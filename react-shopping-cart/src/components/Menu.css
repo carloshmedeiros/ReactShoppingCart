@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #064635;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-family: 'Palette Mosaic', cursive;
+    }
+  
+  .nav__left {
+    flex: 1;
+  }
+  
+  
+  .input__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input__wrapper input {
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    display: block;
+  }
+  
+  .input__wrapper input:focus,
+  input:active {
+    outline: none;
+  }
+  
+  .nav__right {
+    flex: 1;
+  }
+  
+  .cart__icon {
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart__icon i {
+    cursor: pointer;
+  }
+  
+  .item__count {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    background-color: red;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    top: -35%;
+    right: -35%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+  }
